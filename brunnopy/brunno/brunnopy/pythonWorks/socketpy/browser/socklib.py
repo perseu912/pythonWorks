@@ -27,12 +27,12 @@ exit()
 if sucess:
 print(f'connected in {
   self.proxy
-}[ {
+}[{
   self.ip
 }]')
 
 
-#envia pacotes de dados na forma de bit(.encode)
+#envia pacotes de dados na forma de bit
 def send(self, msg):
 self.s.send(msg.encode())
 
